@@ -53,7 +53,7 @@ int main(){
         }
         if( now!=next ){
             now = next-now;
-            printf("%d %d ",cor_x[i]-next_x,now);
+            cout << cor_x[i]-next_x << " " << now << " ";
             next_x = cor_x[i];
             now = next;
         }
